@@ -1,0 +1,5 @@
+GET THESE DONE FIRST FOR WEB II
+-Database retrieval(grab list of users by least # of votes)
+-Save login info in session using session store
+-Save survey results with cookies
+-Database modification(Add a user, upvote users)
