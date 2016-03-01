@@ -54,7 +54,7 @@ def hide(filename, message):
 			else:
 				newData.append(pixel_data)
 		img.putdata(newData)
-		img.save(filename, "PNG")
+		img.save("newfile.png", "PNG")
 		return "Completed!"
 	return "Incorrect Image Mode Detected: Couldn't hide message!"
 

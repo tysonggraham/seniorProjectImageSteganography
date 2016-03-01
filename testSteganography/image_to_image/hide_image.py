@@ -38,11 +38,11 @@ if (__name__=="__main__"):
 		give_help()
 
 	elif (sys.argv[1] == "show"):
-		extract_image(sys.argv[2]).save("extracted.png");
+		extract_image(sys.argv[2]).save("extracted.jpg");
 		print("image saved as extracted.png");
 
 	elif (sys.argv[1] == "hide"):
-		hide_image(sys.argv[2], sys.argv[3]).save("hidden.png")
+		hide_image(sys.argv[2], sys.argv[3]).save("hidden.jpg")
 		print "successfully hid the image"
 
 	else:
